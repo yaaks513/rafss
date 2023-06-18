@@ -1,0 +1,120 @@
+
+body{
+   
+    background-image: url('img/background3.jpg');
+    
+    background-size: cover;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #b9385f;
+    overflow: hidden;
+    margin-top: 50px;
+    font-weight: bold;
+   
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #883232;
+    color: black;
+   
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #fd0505;
+    color: white;
+   
+  }
+
+  .rafs{
+    text-align: center;
+    color: rgb(246, 250, 4);
+    font-size: 30px;
+    font-weight: bold;
+   font-family: 'new times roman';
+}
+
+.pov{
+  text-align: center;
+    color: rgb(252, 252, 250);
+    font-size: 25px;
+    font-weight: bold;
+   font-family: 'new times roman';
+
+
+}
+
+.products{
+     margin-left: 10px;
+      size: 50%;
+  display: flex;
+    gap: 25px;
+    text-align: left;
+    font-weight: bolder;
+    
+
+}
+
+.order{
+    
+    width: 80px; 
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 70px;
+    border-radius: 5px;
+    box-sizing: 10px;
+    box-shadow: 10px;
+    cursor: pointer;
+}
+
+.add{
+ margin-left: 280px;
+background-color: #46222c;
+width: 400px; 
+height: 450px;
+border-radius: 5px;
+border-style: ridge;
+
+}
+
+
+.address {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+
+footer{
+    background-color: chocolate;
+    display: block;
+    background-size: cover;
+   float: bottom;
+   padding: 3px;
+    
+    
+       text-align: center;
+   
+}
+
